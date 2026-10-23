@@ -1,6 +1,6 @@
 // Service worker: lets the app open with no internet.
 // Same-site files are served from the saved copy first and refreshed in the background.
-const CACHE = 'sales-app-cdc731c4';
+const CACHE = 'sales-app-dd750b3e';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
